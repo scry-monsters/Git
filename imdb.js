@@ -1,4 +1,5 @@
 $(document).ready(() => {
+  console.log("I love you");
     $("#searchForm").on('submit', (e) => {
         e.preventDefault();
         let searchText = $("#searchText").val();
